@@ -10,6 +10,9 @@ This is the repository for Glyphs scripts from TrionesType.
 Merge Collinear.py
 ```
 
+<img width="1814" height="918" alt="image" src="https://github.com/user-attachments/assets/99ca96d6-e4b2-4990-bdb1-48e1a26b591c" />
+
+
 This script merges all contours with collinear segments while keeping compatibility.
 
 该脚本用于合并带有共线线段的轮廓，同时保持兼容性。
