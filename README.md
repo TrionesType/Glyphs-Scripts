@@ -10,7 +10,7 @@ This is the repository for Glyphs scripts from TrionesType.
 Merge Collinear.py
 ```
 
-<img width="1814" height="918" alt="image" src="https://github.com/user-attachments/assets/99ca96d6-e4b2-4990-bdb1-48e1a26b591c" />
+<img width="1814" height="918" src="https://github.com/user-attachments/assets/99ca96d6-e4b2-4990-bdb1-48e1a26b591c" />
 
 
 This script merges all contours with collinear segments while keeping compatibility.
@@ -52,6 +52,9 @@ Workflow:
 LabelColor.glyphsReporter
 ```
 
+<img width="409" height="262" src="https://github.com/user-attachments/assets/54f10209-db88-4fd6-9851-6732204d2d37" />
+
+
 Show color labels for layers and glyphs in the edit view with colored underlines. Control visibility via “Scripts → Show Color Labels”.
 
 在编辑界面上一目了然地用下划线展示图层和字符颜色标签。在「脚本 → 显示 Color Labels」控制显示与否。
@@ -61,6 +64,8 @@ Show color labels for layers and glyphs in the edit view with colored underlines
 ```
 Quick Access.glyphsPalette
 ```
+
+<img width="511" height="288" src="https://github.com/user-attachments/assets/f1e707d8-0f48-434b-8c51-462dbaa22b8b" />
 
 Show a palette with quick access to menu items.
 
