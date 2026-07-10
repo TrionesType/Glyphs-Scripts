@@ -2,7 +2,7 @@
 
 This is the repository for Glyphs scripts from TrionesType.
 
-## Scripts Included
+## Scripts
 
 ### Merge Collinear
 
@@ -43,6 +43,29 @@ Workflow:
 1. **打开字形**：同时打开「栦桥酬」三个字形进入编辑视图，目标字形「栦」为空字形（待填充状态）。
 2. **添加参考线**：为这三个字形分别添加一条名为 cb（component bound，部件边界）的参考线，用于标记左右部首的分界位置。
 3. **执行组合**：使用文本工具选中这三个字形，运行脚本 Combine radicals (for all layers)。脚本将自动提取「桥」的左部首与「酬」的右部首，组合生成新字形「栦」。
+
+## Plugins
+
+### Show color labels
+
+```
+LabelColor.glyphsReporter
+```
+
+Show color labels for layers and glyphs in the edit view with colored underlines. Control visibility via “Scripts → Show Color Labels”.
+
+在编辑界面上一目了然地用下划线展示图层和字符颜色标签。在「脚本 → 显示 Color Labels」控制显示与否。
+
+### Quick Access
+
+```
+Quick Access.glyphsPalette
+```
+
+Show a palette with quick access to menu items.
+
+将菜单项添加至右侧栏，方便快速调用。
+
 
 ## License
 Apache License Version 2.0
