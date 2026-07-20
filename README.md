@@ -51,6 +51,9 @@ Find Similar Han.py
 Find Similar Han.pkl
 ```
 
+<img width="1001" height="430" src="https://github.com/user-attachments/assets/81cab33f-21c5-4d90-a0fc-1c155234567c" />
+
+
 Find similar CJK ideographs. This script searches the exported glyphs for Hanzi that are visually similar to the currently active glyph, returning 10 results by default. Note that this similarity does not necessarily mean the glyphs share the same radicals — they simply “look alike”.
 
 **Note: Please ensure that the `.pkl` file and the `.py` file are placed in the same directory, and avoid renaming them.**
