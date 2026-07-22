@@ -4,18 +4,15 @@ This is the repository for Glyphs scripts from TrionesType.
 
 ## Scripts
 
-### Merge Collinear
+## Anisotropic Interpolation with Background
 
 ```
-Merge Collinear.py
+Anisotropic Interpolation with Background.py
 ```
 
-<img width="1814" height="918" src="https://github.com/user-attachments/assets/99ca96d6-e4b2-4990-bdb1-48e1a26b591c" />
+This script performs anisotropic interpolation between the current layer and the background layer, applying different interpolation ratios along the X and Y axes. It allows the horizontal and vertical strokes of the current layer to approach the background layer at different speeds.
 
-
-This script merges all contours with collinear segments while keeping compatibility.
-
-该脚本用于合并带有共线线段的轮廓，同时保持兼容性。
+该脚本在当前层和背景层之间进行各向异性插值，即对 X 轴和 Y 轴分别应用不同的插值比例。可以让当前层的横画和竖画以不同速度靠近背景层。
 
 ### Combine Radicals (for All Layers)
 
@@ -61,6 +58,19 @@ Find similar CJK ideographs. This script searches the exported glyphs for Hanzi 
 查找形态相似的汉字。该脚本会从已导出的字形中找出与当前活跃字形比较相似的汉字，默认查找 10 个。这种相似未必意味着一定包含相同的汉字部件，而仅仅是「看起来很像」。
 
 **注意：请确保 .pkl 文件和 .py 文件在同一目录下，且不要轻易修改文件名。**
+
+### Merge Collinear
+
+```
+Merge Collinear.py
+```
+
+<img width="1814" height="918" src="https://github.com/user-attachments/assets/99ca96d6-e4b2-4990-bdb1-48e1a26b591c" />
+
+
+This script merges all contours with collinear segments while keeping compatibility.
+
+该脚本用于合并带有共线线段的轮廓，同时保持兼容性。
 
 ## Plugins
 
